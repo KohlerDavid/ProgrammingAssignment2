@@ -35,3 +35,12 @@ cacheSolve <- function(x, ...) {
         x$setinvert(inv)
         inv
 }
+
+
+### For convenices nesting of the functions from above
+invertMatrix<-function(x) cacheSolve(makeCacheMatrix(x))
+
+# Return a matrix that is the inverse of 'x'
+my_matrix<-cbind(c(2,2),c(1,4))##just a small example 
+
+invertMatrix(my_matrix)# gives the inverted matrix
