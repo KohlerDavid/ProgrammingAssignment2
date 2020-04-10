@@ -20,7 +20,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 ## This function takes the data from the special "matrix" from above and
 ## inverts the data from the chace
 
