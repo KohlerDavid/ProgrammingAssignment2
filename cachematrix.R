@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The functions below are use to create matrix which is the inverse of the
+## matrix we use as imput (below named x). However the solve command which
+## is applied to make the inversion can only be apllied for 2x2 matrices 
 
-## Write a short comment describing this function
+## This function creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
         inv<- NULL
